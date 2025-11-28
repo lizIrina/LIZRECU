@@ -179,7 +179,7 @@ def home():
         </div>
         
         <div class="footer">
-            <p>🌸 Proyecto CI/CD - Examen Final 🌸</p>
+            <p>🌸 Proyecto CI/CD - Prueba 🌸</p>
             <p>Desarrollado con amor por Llinin</p>
             <p>Desplegado automáticamente con GitHub Actions + Docker + Traefik</p>
         </div>
