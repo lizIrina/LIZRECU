@@ -133,7 +133,7 @@ def home():
 </head>
 <body>
     <div class="container">
-        <h1><span class="panda">🐼</span> Mundo Panda <span class="panda">🐼</span></h1>
+        <h1><span class="panda">🐼</span> lizzzzzzz <span class="panda">🐼</span></h1>
         <p class="subtitle">Descubriendo a los adorables gigantes de bambú <span class="heart">💕</span></p>
         
         <div class="info-section">
