@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   llinin:
-    image: ghcr.io/(user de liz)/llinin:1.0.5
+    image: ghcr.io/lizIrina/llinin:1.0.5
     deploy:
       replicas: 1
       labels:
