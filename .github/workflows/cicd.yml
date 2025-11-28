@@ -25,13 +25,13 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/lizIrina/llinin:1.0.5
-            ghcr.io/lizIrina/llinin:latest
+            ghcr.io/lizirina/llinin:1.0.5
+            ghcr.io/lizirina/llinin:latest
       - name: Verificar imagen publicada
         run: |
           echo "Imagen publicada exitosamente:"
-          echo "ghcr.io/lizIrina/llinin:1.0.5"
-          echo "ghcr.io/lizIrina/llinin:latest"
+          echo "ghcr.io/lizirina/llinin:1.0.5"
+          echo "ghcr.io/lizirina/llinin:latest"
       - name: Copiar stack.yml al servidor
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -53,10 +53,10 @@ jobs:
             cd ~/deploy
 
             echo "Login a GitHub Container Registry"
-            echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u lizIrina --password-stdin
+            echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u lizirina --password-stdin
 
             echo "Descargando imagen actualizada"
-            docker pull ghcr.io/lizIrina/llinin:1.0.5
+            docker pull ghcr.io/lizirina/llinin:1.0.5
 
             echo "Eliminando stack anterior si existe"
             docker stack rm llinin || true
